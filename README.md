@@ -8,7 +8,7 @@ Check out my business card in your own terminal!
 # Usage
 
 ```bash
-npx kxrt 
+npx gabyang 
 ```
 
 # Credit

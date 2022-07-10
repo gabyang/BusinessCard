@@ -15,9 +15,10 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('Gabriel Yang Yao Guang'),
-  handle: chalk.cyan('@gyyg'),
+  email1: chalk.cyan('1gabrielyang1@gmail.com'),
+  email2: chalk.cyan('gabrielyang@u.nus.edu'),
   labelWork: chalk.white.bold('Profession:'),
-  work: chalk.white('Student, National University of Singapore'),
+  work: chalk.white('Co-Founder, EzCompostr and Student, National University of Singapore'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   github: chalk.cyan('https://github.com/gabyang'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
@@ -25,12 +26,12 @@ const data = {
   labelWeb: chalk.white.bold('   Website:'),
   web: chalk.cyan('incoming'),
   labelCard: chalk.white.bold('      Card:'),
-  npx: chalk.white('npx gyyg'),
+  npx: chalk.white('npx gabyang'),
 }
 
 // Actual strings we're going to output
 const newline = '\n'
-const heading = `${data.name} / ${data.handle}`
+const heading = `${data.name} / ${data.email1} / ${data.email2}`
 const working = `${data.labelWork}  ${data.work}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
